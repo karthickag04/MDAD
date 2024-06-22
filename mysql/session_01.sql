@@ -14,17 +14,17 @@
 -- Indexes: Used to speed up query processing.
 
 
--- use the below comment to create database
+-- Creating a database:
 create database studentDatabase;
 
--- use the below comment to see the available databases
+-- Showing available databases:
 show databases;
 
--- use the below statement to select the database to work further like creating table or update tables
+-- Selecting a database to work further (e.g., creating tables, updating tables):
 use studentDatabase;
 
--- use the below comment to see the available tables in the selected databases
-show databases;
+-- Showing the available tables in the selected database:
+show tables;
 
 
 -- 2. SQL Data Types
@@ -75,31 +75,69 @@ CREATE TABLE settings (
     is_enabled BOOLEAN
 );
 
+
 -- 3. SQL Syntax
 
 -- Creating a Table: (syntax)
--- CREATE TABLE table_name ( column1 datatype,  column2 datatype, column3 datatype, ... );
+-- CREATE TABLE table_name ( column1 datatype, column2 datatype, column3 datatype, ... );
+
+-- The following constraints are commonly used in SQL:
+
+-- NOT NULL - Ensures that a column cannot have a NULL value
+-- UNIQUE - Ensures that all values in a column are different
+-- PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+-- FOREIGN KEY - Prevents actions that would destroy links between tables
+-- CHECK - Ensures that the values in a column satisfy a specific condition
+-- DEFAULT - Sets a default value for a column if no value is specified
+-- CREATE INDEX - Used to create and retrieve data from the database very quickly
 
 -- Example of table creation:
 CREATE TABLE users (
-    user_id INT PRIMARY KEY,
-    username VARCHAR(50) UNIQUE,
-    password VARCHAR(50) NOT NULL
+    user_id INT PRIMARY KEY AUTO_INCREMENT, -- Automatically increments the primary key
+    username VARCHAR(50) UNIQUE NOT NULL, -- Ensures the username is unique and not null
+    password VARCHAR(50) NOT NULL -- Ensures the password is not null
 );
 
 -- Inserting Data: (syntax)
 -- INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);
 
--- Example of inserting values to table:
+-- Example of inserting values into a table:
 INSERT INTO users (user_id, username, password)
 VALUES (1, 'john_doe', 'securepassword');
+
+-- Inserting additional records(Multiple Records):
+INSERT INTO users (user_id, username, password) VALUES 
+(2, 'jane_doe', 'anotherpassword'),
+(3, 'alice_smith', 'alicepass123'),
+(4, 'bob_jones', 'bobsecurepass'),
+(5, 'charlie_brown', 'charlie123'),
+(6, 'diana_prince', 'wonderwoman'),
+(7, 'evan_wright', 'evanpass456');
+
+-- Another example of inserting values into a table without specifying column names (must provide values for all columns):
+INSERT INTO users VALUES (2, 'jane_doe', 'anotherpassword');
+
 
 -- Selecting Data: (syntax)
 -- SELECT column1, column2, ... FROM table_name WHERE condition;
 
--- Example for selecting all datas from particular table:
-select * from users;
+-- Example for selecting all data from a particular table:
+SELECT * FROM users;
 
--- Example for selecting datas from particular table based on conditions:
+-- Example for selecting data from a particular table based on conditions:
 SELECT username, created_at FROM users WHERE user_id = 1;
 
+
+-- Additional table creation example with more constraints:
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY AUTO_INCREMENT,
+    order_date DATE NOT NULL,
+    customer_id INT,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
+    CHECK (order_date >= '2020-01-01'), -- Ensures the order date is after 2020-01-01
+    status VARCHAR(20) DEFAULT 'pending' -- Sets a default value for the status column
+);
+
+-- Example of inserting data with default values and constraints:
+INSERT INTO orders (order_date, customer_id)
+VALUES ('2023-06-18', 1);
