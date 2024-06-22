@@ -1,0 +1,20 @@
+-- Task 1: Create a new database named `StudentManagement`.
+-- Task 2: Show the list of available databases to verify the creation.
+-- Task 3: Select the `StudentManagement` database for further operations.
+-- Task 4: Create a `students` table with columns `student_id`, `first_name`, `last_name`, `age`, and `enrollment_date`.
+-- Task 5: Create a `courses` table with columns `course_id`, `course_name`, and `course_description`.
+-- Task 6: Create an `enrollments` table with columns `enrollment_id`, `student_id`, `course_id`, and `enrollment_date`.
+-- Task 7: Insert at least 5 records into the `students` table.
+-- Task 8: Insert at least 3 records into the `courses` table.
+-- Task 9: Enroll the students into courses by inserting records into the `enrollments` table.
+-- Task 10: Select all students and display their details.
+-- Task 11: Select specific columns (`first_name`, `last_name`, `age`) from the `students` table.
+-- Task 12: Select the list of students enrolled in a specific course using the `course_id`.
+-- Task 13: Update the `age` of a specific student using their `student_id`.
+-- Task 14: Delete a student from the `students` table using their `student_id`.
+-- Task 15: Describe the structure of the `students` table.
+-- Task 16: Show the list of tables available in the `StudentManagement` database.
+-- Task 17: Select the `course_name` and `course_description` from the `courses` table.
+-- Task 18: Retrieve the details of students who enrolled after a specific date.
+-- Task 19: Count the number of students enrolled in each course.
+-- Task 20: Delete the `enrollments` table from the database.
