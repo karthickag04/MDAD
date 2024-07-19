@@ -1,0 +1,31 @@
+# , Task Description
+1,View the first 10 rows of the dataset.
+2,View the summary statistics for the 'HP' and 'Attack' columns.
+3,Access the 'Name' and 'Type 1' columns for the first 5 rows.
+4,Access rows 10 to 20 of the dataset.
+5,Filter the DataFrame to show only Pokémon with 'Type 1' as 'Water'.
+6,Sort the DataFrame by 'Speed' in descending order.
+7,Add a new column 'Total Stats' that sums up 'HP', 'Attack', 'Defense', 'Sp. Atk', 'Sp. Def', and 'Speed'.
+8,Drop the 'Legendary' column from the DataFrame.
+9,Filter the DataFrame to show only Pokémon with 'Total Stats' greater than 500.
+10,Reset the index of the filtered DataFrame from task 9 and drop the old index.
+11,Rename the 'Type 1' column to 'Primary Type'.
+12,Count the number of Pokémon for each 'Primary Type'.
+13,Filter the DataFrame to show only Pokémon with 'Primary Type' as 'Grass' and 'Type 2' as 'Poison'.
+14,Create a new column 'Speed Rank' that ranks Pokémon by their 'Speed'.
+15,Get the names of the top 5 fastest Pokémon.
+16,Calculate the average 'HP' of all Pokémon.
+17,Create a pivot table showing the average 'Attack' and 'Defense' for each 'Primary Type'.
+18,Filter the DataFrame to show only Pokémon with 'Generation' equal to 1.
+19,Group the DataFrame by 'Primary Type' and calculate the sum of 'HP' for each group.
+20,Filter the DataFrame to show only Pokémon with 'Attack' greater than the average 'Attack'.
+21,Replace all 'NaN' values in the 'Type 2' column with 'None'.
+22,Drop rows where 'HP' is less than 50.
+23,Create a new column 'Attack to Defense Ratio' that is the ratio of 'Attack' to 'Defense'.
+24,Select and display the 'Name' and 'Primary Type' of Pokémon with 'Speed' greater than 100.
+25,Calculate the median 'Defense' of Pokémon in each 'Primary Type'.
+26,Sort the DataFrame by 'Total Stats' and reset the index.
+27,Filter the DataFrame to show Pokémon with 'Type 2' equal to 'Flying' and calculate the average 'Speed'.
+28,Calculate the correlation between 'Attack' and 'Sp. Atk'.
+29,Filter the DataFrame to show Pokémon with 'HP' in the top 10% and display their names and 'HP'.
+30,Create a bar plot showing the average 'Total Stats' for each 'Generation'.
