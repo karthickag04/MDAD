@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+#install seaborn using pip install
 # Sample data
 df = pd.DataFrame({
     'X': [1, 2, 3, 4, 5],
