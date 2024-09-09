@@ -1,3 +1,10 @@
+-- Server: sql12.freemysqlhosting.net
+-- Name: sql12730306
+-- Username: sql12730306
+-- Password: IuqsifdCnc
+-- Port number: 3306
+-- database name : sql12730306
+
 -- 1. Customer Retention Analysis
 -- Task: Retrieve customer order history and calculate retention rates over time.
 -- Analyze how promotions or loyalty redemptions impacted customer retention.
