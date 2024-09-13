@@ -4,11 +4,6 @@
 -- ------------------------------------------------------
 -- Server version	8.0.37
 
-drop database if exists foodapp1;
-create database foodapp1;
-use foodapp1;
-
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -230,6 +225,22 @@ INSERT INTO `customeraddresses` VALUES (1,1,'Home','123 Main St, Springfield, IL
 UNLOCK TABLES;
 
 --
+-- Temporary view structure for view `customerorders`
+--
+
+DROP TABLE IF EXISTS `customerorders`;
+/*!50001 DROP VIEW IF EXISTS `customerorders`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `customerorders` AS SELECT 
+ 1 AS `customer_id`,
+ 1 AS `name`,
+ 1 AS `order_id`,
+ 1 AS `order_date`,
+ 1 AS `total_amount`*/;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Table structure for table `customerpreferences`
 --
 
@@ -277,7 +288,7 @@ CREATE TABLE `customers` (
   PRIMARY KEY (`customer_id`),
   UNIQUE KEY `email` (`email`),
   UNIQUE KEY `phone` (`phone`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -687,6 +698,32 @@ LOCK TABLES `notificationpreferences` WRITE;
 /*!40000 ALTER TABLE `notificationpreferences` DISABLE KEYS */;
 INSERT INTO `notificationpreferences` VALUES (1,1,'Email',1),(2,1,'SMS',0),(3,1,'Push Notification',1),(4,2,'Email',1),(5,2,'SMS',1),(6,2,'Push Notification',0),(7,3,'Email',0),(8,3,'SMS',1),(9,3,'Push Notification',1),(10,4,'Email',1),(11,4,'SMS',0),(12,4,'Push Notification',1),(13,5,'Email',1),(14,5,'SMS',1),(15,5,'Push Notification',0),(16,6,'Email',0),(17,6,'SMS',1),(18,6,'Push Notification',1),(19,7,'Email',1),(20,7,'SMS',0),(21,7,'Push Notification',1),(22,8,'Email',1),(23,8,'SMS',1),(24,8,'Push Notification',0),(25,9,'Email',0),(26,9,'SMS',1),(27,9,'Push Notification',1),(28,10,'Email',1),(29,10,'SMS',0),(30,10,'Push Notification',1);
 /*!40000 ALTER TABLE `notificationpreferences` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `order_log`
+--
+
+DROP TABLE IF EXISTS `order_log`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `order_log` (
+  `log_id` int NOT NULL AUTO_INCREMENT,
+  `order_id` int DEFAULT NULL,
+  `old_status` varchar(50) DEFAULT NULL,
+  `new_status` varchar(50) DEFAULT NULL,
+  `change_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`log_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `order_log`
+--
+
+LOCK TABLES `order_log` WRITE;
+/*!40000 ALTER TABLE `order_log` DISABLE KEYS */;
+/*!40000 ALTER TABLE `order_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1260,7 +1297,7 @@ CREATE TABLE `users` (
   `user_id` int DEFAULT NULL,
   `user_type` enum('Customer','Partner','Admin','DeliveryPersonnel') NOT NULL,
   PRIMARY KEY (`u_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=77 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=72 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1272,6 +1309,24 @@ LOCK TABLES `users` WRITE;
 INSERT INTO `users` VALUES (1,1,'Customer'),(2,2,'Customer'),(3,3,'Customer'),(4,4,'Customer'),(5,5,'Customer'),(6,6,'Customer'),(7,7,'Customer'),(8,8,'Customer'),(9,9,'Customer'),(10,10,'Customer'),(16,1,'Partner'),(17,2,'Partner'),(18,3,'Partner'),(19,4,'Partner'),(20,5,'Partner'),(21,6,'Partner'),(22,7,'Partner'),(23,8,'Partner'),(24,9,'Partner'),(25,10,'Partner'),(31,21,'Admin'),(32,1,'Admin'),(33,22,'Admin'),(34,2,'Admin'),(35,23,'Admin'),(36,9,'Admin'),(37,3,'Admin'),(38,24,'Admin'),(39,25,'Admin'),(40,26,'Admin'),(41,27,'Admin'),(42,8,'Admin'),(43,28,'Admin'),(44,5,'Admin'),(45,29,'Admin'),(46,30,'Admin'),(47,6,'Admin'),(48,7,'Admin'),(49,10,'Admin'),(50,4,'Admin'),(62,10,'DeliveryPersonnel'),(63,1,'DeliveryPersonnel'),(64,2,'DeliveryPersonnel'),(65,3,'DeliveryPersonnel'),(66,4,'DeliveryPersonnel'),(67,5,'DeliveryPersonnel'),(68,6,'DeliveryPersonnel'),(69,7,'DeliveryPersonnel'),(70,8,'DeliveryPersonnel'),(71,9,'DeliveryPersonnel');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Final view structure for view `customerorders`
+--
+
+/*!50001 DROP VIEW IF EXISTS `customerorders`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`test01`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `customerorders` AS select `customers`.`customer_id` AS `customer_id`,`customers`.`name` AS `name`,`orders`.`order_id` AS `order_id`,`orders`.`order_date` AS `order_date`,`orders`.`total_amount` AS `total_amount` from (`customers` join `orders` on((`customers`.`customer_id` = `orders`.`customer_id`))) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -1282,4 +1337,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-25 17:06:30
+-- Dump completed on 2024-08-07 16:34:35
