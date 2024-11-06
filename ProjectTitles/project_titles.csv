@@ -1,0 +1,140 @@
+sno,Project Titles
+1,Dynamic Supplier Discounting for Real-Time Price Adjustments in E-Commerce  
+2,Machine Learning Models for Supplier Price Prediction Based on Demand-Supply Dynamics  
+3,AI-Powered Supplier Discount Recommendations Using Seasonal Trends and Customer Behavior  
+4,Supplier Rating and Discount Prediction Based on Delivery Timeliness and Quality Assurance  
+5,Real-Time Competitor Price Analysis for Supplier Discount Optimization in Marketplaces  
+6,Smart Inventory Replenishment and Supplier Discount Forecasting Using Real-Time Sales Data  
+7,Predictive Analytics for Stock Shortages and Supplier Discount Adjustments  
+8,Dynamic Pricing Models for Slow-Moving Inventory to Encourage Supplier Discounts  
+9,Supplier Discount Predictor Based on Inventory Turnover Rates and Product Shelf Life  
+10,Supplier Discount Adjustment Based on Regional Stock Availability and Delivery Times  
+11,Personalized Discount Prediction for High-Value Suppliers Based on Customer Segmentation  
+12,Demand Forecasting Models to Optimize Supplier Discounts Based on Customer Trends  
+13,Behavioral Analysis for Predicting Optimal Discount Periods for Popular Product Categories  
+14,Supplier Discount Optimization for High-Demand Products in Competitive Categories  
+15,Real-Time Supplier Discount Optimization Based on Transportation and Logistics Costs  
+16,AI-Driven Supplier Discount Adjustments for High-Volume Products During Peak Seasons  
+17,Supplier Cost Efficiency Predictor Using Route Optimization and Delivery Times  
+18,Dynamic Discount Adjustment for Cross-Border Suppliers to Reduce Lead Times  
+19,Real-Time Supplier Discount Prediction Model Using Machine Learning and IoT Sensor Data  
+20,Supplier Discount Optimization Based on Real-Time Consumer Purchasing Behavior  
+21,Price Prediction Using Supplier Rating Data for Automated Discount Adjustments  
+22,Supplier Discount Adjustment Model Leveraging Sentiment Analysis of Customer Reviews  
+23,AI-Driven Discount Predictions for Suppliers Using Data from Competitor Platforms  
+24,Eco-Friendly Supplier Discount Optimization Using Carbon Footprint and Waste Data  
+25,Sustainable Supplier Discount Predictor Using Product Lifecycle and Environmental Impact  
+26,Dynamic Pricing and Supplier Discount Models for Sustainable Packaging Choices  
+27,Supplier Discount Adjustments Based on Environmental Compliance and Certifications  
+28,Recommender System for Supplier Discounts Based on Past Sales Data and Market Trends  
+29,Real-Time Price Prediction and Discount Recommendation Based on Customer Browsing Patterns  
+30,Supplier Price Negotiation Tool Using Predictive Analytics and Buyer Feedback Data  
+31,Visual Product Quality Assessment Using Image Recognition in E-Commerce Warehouses  
+32,AI-Powered Image Classification for Real-Time Inventory Management and Quality Control  
+33,Predictive Maintenance for Manufacturing Equipment Using Image-Based Fault Detection  
+34,Image-Based Disease Diagnosis Model for Agriculture Using Crop Health Detection  
+35,Augmented Reality Shopping Assistant: Image-Based Product Recommendations for Retail  
+36,Automated Defect Detection in Textiles and Apparel Using Image Processing  
+37,Real-Time Safety Compliance Checker for Construction Sites Using Image Recognition  
+38,Intelligent Video Analytics for Crowd Density and Social Distancing Monitoring  
+39,Image-Based Visual Search for Fashion Products: Enhanced Customer Experience  
+40,Image-Based Real Estate Valuation and Property Condition Prediction  
+41,Emotion Detection in Video Calls for Customer Support Optimization  
+42,Video-Based Customer Behavior Analysis in Retail Environments for Insights and Discounts  
+43,Automated Video Summarization for Enhanced E-Learning Content Delivery  
+44,Real-Time Threat Detection Using Video Surveillance in Public Spaces  
+45,Video Analytics for Automated Event Detection in Sports Broadcasting  
+46,AI-Driven Video Personalization for Streaming Platforms Based on Viewer Preferences  
+47,Video Analysis for Remote Patient Monitoring in Healthcare for Vital Signs Tracking  
+48,Automated Highlights Generation for Online Events Using Video Content Analysis  
+49,Smart Video Captioning for Accessibility in Digital Content Platforms  
+50,Vehicle Recognition and Traffic Flow Analysis Using Video Surveillance  
+51,Speech Emotion Recognition for Mental Health Assessment Using Audio Data  
+52,Customer Intent Prediction in Call Centers Using Speech and Tone Analysis  
+53,Speech Recognition and Translation for Multilingual Video Streaming Platforms  
+54,Predictive Audio Analysis for Early Detection of Machine Malfunctions in Factories  
+55,Audio Analytics for Enhancing Security in High-Risk Areas through Sound Recognition  
+56,Real-Time Audio-Based Sentiment Analysis for Brand Monitoring on Social Media  
+57,Predictive Maintenance in Automotives Using Engine Sound Analysis  
+58,Audio-Based Fraud Detection for Payment and Identity Verification in Fintech  
+59,Audio Classification and Enhancement for Hearing-Impaired Accessibility in Media  
+60,Speech-to-Text Summarization for Meetings and Educational Lectures  
+61,Cross-Modal Analysis for Automated Content Moderation in Social Media (Image  Video  Audio)
+62,Real-Time Video and Audio Sentiment Analysis for Enhanced Viewer Recommendations  
+63,AI-Driven Predictive Insights from Video and Audio for Online Learning Engagement  
+64,Smart Surveillance for Retail: Integrating Audio  Video  and Image Data for Theft Detection
+65,Virtual Shopping Assistant Using Audio Commands and Image Recognition in E-Commerce  
+66,Multimodal Emotion Recognition for Virtual Meetings using Audio and Video Data  
+67,Real-Time Hazard Detection in Factories Using Video  Audio  and Image Recognition
+68,Enhanced Movie Summarization Using Cross-Modal Analysis of Image  Video  and Audio
+69,Intelligent Interactive Shopping Experience Using Voice  Video  and Image Inputs
+70,Remote Medical Diagnostics: Combining Audio (Heartbeat)  Video (Patient Movements)  and Image (X-rays)
+71,Voice-Activated Digital Twins for Manufacturing Process Monitoring and Troubleshooting  
+72,Predictive Content Creation for Marketing Using Video  Image  and Audio Trends
+73,Augmented Reality-Based Interior Design Recommendations Using Image and Audio Feedback  
+74,AI-Driven Accessibility Tools for Real-Time Subtitles in Live Events Using Audio Transcription  
+75,Image and Audio-Based Animal Health Monitoring System for Veterinary Applications  
+76,Interactive Storytelling and Educational Games with Voice and Gesture Recognition  
+77,Real-Time Contextual Ad Placement in Videos Using Audio and Visual Cues  
+78,User Behavior Prediction in Video Games Using Image and Audio Analysis for Immersive Gaming  
+79,Music Genre Recommendation and Prediction Using Audio and User Interaction Analysis  
+80,AI-Enhanced Hearing Aids for Noise Reduction and Audio Signal Amplification in Real-Time  
+81,Visual Product Quality Assessment Using Image Recognition in E-Commerce Warehouses  
+82,AI-Powered Image Classification for Real-Time Inventory Management and Quality Control  
+83,Predictive Maintenance for Manufacturing Equipment Using Image-Based Fault Detection  
+84,Image-Based Disease Diagnosis Model for Agriculture Using Crop Health Detection  
+85,Augmented Reality Shopping Assistant: Image-Based Product Recommendations for Retail  
+86,Automated Defect Detection in Textiles and Apparel Using Image Processing  
+87,Real-Time Safety Compliance Checker for Construction Sites Using Image Recognition  
+88,Intelligent Video Analytics for Crowd Density and Social Distancing Monitoring  
+89,Image-Based Visual Search for Fashion Products: Enhanced Customer Experience  
+90,Image-Based Real Estate Valuation and Property Condition Prediction  
+91,Emotion Detection in Video Calls for Customer Support Optimization  
+92,Video-Based Customer Behavior Analysis in Retail Environments for Insights and Discounts  
+93,Automated Video Summarization for Enhanced E-Learning Content Delivery  
+94,Real-Time Threat Detection Using Video Surveillance in Public Spaces  
+95,Video Analytics for Automated Event Detection in Sports Broadcasting  
+96,AI-Driven Video Personalization for Streaming Platforms Based on Viewer Preferences  
+97,Video Analysis for Remote Patient Monitoring in Healthcare for Vital Signs Tracking  
+98,Automated Highlights Generation for Online Events Using Video Content Analysis  
+99,Smart Video Captioning for Accessibility in Digital Content Platforms  
+100,Vehicle Recognition and Traffic Flow Analysis Using Video Surveillance  
+101,Speech Emotion Recognition for Mental Health Assessment Using Audio Data  
+102,Customer Intent Prediction in Call Centers Using Speech and Tone Analysis  
+103,Speech Recognition and Translation for Multilingual Video Streaming Platforms  
+104,Predictive Audio Analysis for Early Detection of Machine Malfunctions in Factories  
+105,Audio Analytics for Enhancing Security in High-Risk Areas through Sound Recognition  
+106,Real-Time Audio-Based Sentiment Analysis for Brand Monitoring on Social Media  
+107,Predictive Maintenance in Automotives Using Engine Sound Analysis  
+108,Audio-Based Fraud Detection for Payment and Identity Verification in Fintech  
+109,Audio Classification and Enhancement for Hearing-Impaired Accessibility in Media  
+110,Speech-to-Text Summarization for Meetings and Educational Lectures  
+111,Cross-Modal Analysis for Automated Content Moderation in Social Media (Image  Video  Audio)
+112,Real-Time Video and Audio Sentiment Analysis for Enhanced Viewer Recommendations  
+113,AI-Driven Predictive Insights from Video and Audio for Online Learning Engagement  
+114,Smart Surveillance for Retail: Integrating Audio  Video  and Image Data for Theft Detection
+115,Virtual Shopping Assistant Using Audio Commands and Image Recognition in E-Commerce  
+116,Multimodal Emotion Recognition for Virtual Meetings using Audio and Video Data  
+117,Real-Time Hazard Detection in Factories Using Video  Audio  and Image Recognition
+118,Enhanced Movie Summarization Using Cross-Modal Analysis of Image  Video  and Audio
+119,Intelligent Interactive Shopping Experience Using Voice  Video  and Image Inputs
+120,Remote Medical Diagnostics: Combining Audio (Heartbeat)  Video (Patient Movements)  and Image (X-rays)
+121,Voice-Activated Digital Twins for Manufacturing Process Monitoring and Troubleshooting  
+122,Predictive Content Creation for Marketing Using Video  Image  and Audio Trends
+123,Augmented Reality-Based Interior Design Recommendations Using Image and Audio Feedback  
+124,AI-Driven Accessibility Tools for Real-Time Subtitles in Live Events Using Audio Transcription  
+125,Image and Audio-Based Animal Health Monitoring System for Veterinary Applications  
+126,Interactive Storytelling and Educational Games with Voice and Gesture Recognition  
+127,Real-Time Contextual Ad Placement in Videos Using Audio and Visual Cues  
+128,User Behavior Prediction in Video Games Using Image and Audio Analysis for Immersive Gaming  
+129,Music Genre Recommendation and Prediction Using Audio and User Interaction Analysis  
+130,AI-Enhanced Hearing Aids for Noise Reduction and Audio Signal Amplification in Real-Time  
+,
+1,"Flipkart, Amazon Supplier Discount Price Predictors"
+2,Hospital Diabetes Prediction (PIMA Indian Diabetes Dataset)
+3,Titanic Collision Death/Survival Prediction
+4,Quora Question Pair Similarity Problem
+5,Personalized Cancer/Heart Disease Diagnosis
+6,Facebook Friend Recommendation using Graph Mining
+7,Taxi Demand Prediction in New York City
+8,Stack Overflow Tag Predictor
