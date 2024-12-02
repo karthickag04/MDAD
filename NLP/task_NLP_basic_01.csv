@@ -1,0 +1,31 @@
+Task_Number,Task_Description
+1,Install NLTK library in Python.
+2,Download NLTK corpora such as 'punkt' and 'stopwords'.
+3,Tokenize a given sentence into words using NLTK.
+4,Tokenize a paragraph into sentences using NLTK.
+5,Write a function to perform word tokenization on multiple sentences.
+6,Use NLTK to remove punctuation from a tokenized text.
+7,Perform stemming on a given list of words using the Porter Stemmer.
+8,Perform stemming on a given text using the Lancaster Stemmer.
+9,Compare the results of Porter and Lancaster Stemmer for the same text.
+10,Implement custom stemming rules using RegexpStemmer.
+11,Lemmatize words using NLTK's WordNetLemmatizer.
+12,Lemmatize a sentence, considering parts of speech tags.
+13,Compare the results of stemming and lemmatization for a given text.
+14,Write a function to remove stopwords from a tokenized text using NLTK.
+15,Generate a list of common stopwords in English using NLTK.
+16,Add custom stopwords to the default NLTK stopword list.
+17,Perform part-of-speech tagging on a tokenized sentence using NLTK.
+18,Extract nouns from a tokenized and tagged text.
+19,Extract verbs from a tokenized and tagged text.
+20,Write a function to tag parts of speech and return only adjectives.
+21,Perform named entity recognition (NER) on a given text using NLTK.
+22,Extract proper nouns (named entities) from a tokenized text.
+23,Find all organizations mentioned in a given text using NLTK.
+24,Perform chunking to extract noun phrases from a sentence.
+25,Visualize the named entity recognition result using tree visualization in NLTK.
+26,Implement a basic text preprocessing pipeline: tokenization, stopword removal, and stemming.
+27,Write a function to preprocess text by tokenizing, lemmatizing, and removing stopwords.
+28,Compare the tokenization results of NLTK's 'word_tokenize' and Python's 'split'.
+29,Analyze the word frequency distribution of a text using NLTK's FreqDist.
+30,Create a word cloud from preprocessed text data after removing stopwords and punctuation.
