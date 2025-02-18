@@ -33,3 +33,9 @@ https://github.com/yo-sabree/VAT
 
 
 
+LICENSE-PLATE-RECOGNITION
+
+https://github.com/duongtuIT/LICENSE-PLATE-RECOGNITION-USING-CONCURRENT-NEURAL-NETWORK-
+
+
+
