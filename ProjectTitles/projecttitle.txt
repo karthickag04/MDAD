@@ -1,0 +1,11 @@
+ADVANCED DEEP LEARNING APPLICATIONS
+✓ Labelreading using Optical Character Recognition
+✓ Smart attendance system
+✓ Vehicle detection
+✓ License plate recognition
+✓ Drowsiness detection
+✓ Road sign recognition
+
+
+Reference Link with Explanation on Project with sample code
+https://chatgpt.com/share/67aaf5b2-dce4-800b-bf53-750f2602085a

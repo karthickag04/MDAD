@@ -1,0 +1,35 @@
+facial expression recognition
+
+https://github.com/rondinellimorais/facial-expression-recognition
+
+https://github.com/apanda26/Facial-Expression-Recognition
+
+https://github.com/luanshiyinyang/FacialExpressionRecognition
+
+https://github.com/WuJie1010/Facial-Expression-Recognition.Pytorch
+
+
+https://github.com/ageitgey/face_recognition
+
+https://github.com/abhinavKumar0206/facial_recognition
+
+https://github.com/gimenes10/facial_recog
+
+
+Object detection
+
+
+
+
+https://github.com/karimaait/DNN-model-for-object-identification
+
+https://github.com/Sankhadeep-Bhowmik/Object_Identification
+
+
+https://github.com/Geeksongs/Computer_Vision
+
+
+https://github.com/yo-sabree/VAT
+
+
+
